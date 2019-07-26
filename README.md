@@ -1,4 +1,4 @@
-### Setting up a Project, GIT and DOM Manipulation 
+### Setting up a Project, GIT Workflows and DOM Manipulation 
 
 <h1>Objectives</h1>
 <ul>
