@@ -153,7 +153,19 @@
   
   p {
     margin-top: 0; }
-  
+
+  #div1 {
+    color: red;
+  }
+  #div2 {
+    color: blue;
+  }
+  #div3 {
+    color: green;
+  }
+  #div4 {
+    color: violet;
+  }
   
   /* Links
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
