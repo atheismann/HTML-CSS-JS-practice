@@ -1,7 +1,7 @@
-document.getElementById('div1').onclick = changeColor();
-document.getElementById('div2').onclick = changeText();
-document.getElementById('div3').onmouseover = makeDisappear();
-document.getElementById('div4').onmouseover = makeLarge();
+document.getElementById('div1').addEventListener('click', changeColor);
+document.getElementById('div2').addEventListener('click', changeText);
+document.getElementById('div3').addEventListener('mouseover', makeDisappear);
+document.getElementById('div4').addEventListener('mouseout', makeLarge);
 
 /*---- Functions ----*/
 
@@ -18,5 +18,5 @@ function makeDisappear() {
 }
 
 function makeLarge() {
-    document.getElementById('div4').style.size = '42px';
+    document.getElementById('div4').style.fontSize = '42px';
 }
